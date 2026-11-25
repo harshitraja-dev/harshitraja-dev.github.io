@@ -3,7 +3,7 @@ import { useEffect, useRef, type ReactNode, type ElementType } from 'react';
 export const RESUME_URL = `${import.meta.env.BASE_URL}assets/Harshit-Raja's-Resume.pdf`;
 export const EMAIL = 'iamharshitraja@gmail.com';
 export const LINKS = {
-  github: 'https://github.com/HarshitRaja1999',
+  github: 'https://github.com/harshitraja-dev',
   linkedin: 'https://www.linkedin.com/in/harshit-raja-1411671b2/',
 };
 

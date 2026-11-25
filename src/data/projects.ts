@@ -154,7 +154,7 @@ export const projects: Project[] = [
     description: 'Windows app that mirrors audio from one playback device to another in real time using WASAPI loopback.',
     tech: ['C#', '.NET 8', 'WPF', 'NAudio'],
     categories: ['dotnet'],
-    link: 'https://github.com/HarshitRaja1999/DualAudioShare',
+    link: 'https://github.com/harshitraja-dev/DualAudioShare',
   },
   {
     title: 'EdgeLight',
@@ -162,7 +162,7 @@ export const projects: Project[] = [
     description: 'Transparent overlay that adds an adjustable soft-light border around the screen for video calls.',
     tech: ['C#', '.NET 8', 'WPF'],
     categories: ['dotnet'],
-    link: 'https://github.com/HarshitRaja1999/EdgeLight.App',
+    link: 'https://github.com/harshitraja-dev/EdgeLight.App',
   },
   {
     title: 'Image Analyzer',
@@ -178,7 +178,7 @@ export const projects: Project[] = [
     description: 'GUI tool for batch resizing, bitrate changes and compression, up to 60% smaller files.',
     tech: ['Python', 'FFmpeg'],
     categories: ['dotnet'],
-    link: 'https://github.com/HarshitRaja1999/ClipCraft',
+    link: 'https://github.com/harshitraja-dev/ClipCraft',
   },
   {
     title: 'CRM & HRMS Platforms',
@@ -211,7 +211,7 @@ export const projects: Project[] = [
     description: 'Discord bot that connects to Gmail to receive, filter and send email from Discord.',
     tech: ['Node.js', 'JavaScript', 'Python'],
     categories: ['web'],
-    link: 'https://github.com/HarshitRaja1999/Hexmail',
+    link: 'https://github.com/harshitraja-dev/Hexmail',
   },
 
   // ---------- Mobile ----------
