@@ -1,4 +1,4 @@
-import{r as ta,j as zo}from"./index-DacQY1YM.js";/**
+import{r as ta,j as zo}from"./index-BI3-X5er.js";/**
  * @license
  * Copyright 2010-2024 Three.js Authors
  * SPDX-License-Identifier: MIT
