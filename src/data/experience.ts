@@ -1,53 +1,40 @@
 export const experience = [
   {
-    title: "Software Developer",
-    company: "NCircle Tech Solutions Pvt. Ltd.",
-    period: "2023 - Present",
-    description: [
-      "Develop and maintain multiple applications using C# and .NET, ensuring high performance and reliability.",
-      "Collaborate with the team to design and implement multiple Angular-based web applications, enhancing user engagement and functionality.",
-      "Workin on a C# and .NET application to manage BIM Manager accounts, enabling efficient CRUD operations and improving data organization.",
-      "Built a fully-functional Forge Viewer to view 3D models and perform various operations, enhancing visualization capabilities for complex designs.",
-      "Work with the team to implement cross-functional functionality for editing and viewing IFC files on the web, enabling seamless collaboration and data management."
-    ]
-  },
-    {
-    title: "Software Engineer",
-    company: "BUSINESSNEXT(CRMNEXT) Acidaes Solutions Pvt. Ltd.",
-    period: "2022 - 2023",
-    description: [
-      "Resolved complex technical issues in ASP.NET-based projects, ensuring seamless performance and minimizing downtime.",
-      "Developed and maintained applications using Python, JavaScript, React.js, ASP.NET, and C#, contributing to both front-end and back-end systems",
-      "Designed and implemented MySQL databases, optimizing data structures to improve query performance and scalability.",
-      "Supported team operations by troubleshooting bugs and providing effective solutions to meet tight deadlines.",
-      "Collaborated with cross-functional teams to deliver high-quality software support and enhance user experience."
-    ]
+    title: 'Software Developer',
+    company: 'nCircle Tech Pvt. Ltd.',
+    period: 'Oct 2023 — Present',
+    tags: ['C# / .NET', 'Angular', 'Three.js', 'Autodesk APS', 'LangChain'],
+    points: [
+      'Designed a custom binary 3D format (LandPack + JSON manifest) for Three.js that cut large-model load time by 40% versus GLB.',
+      'Built Autodesk Forge Viewer integrations on the Data Exchange GraphQL API: real-time BIM filtering, element isolation and multi-user chat.',
+      'Built an LLM assistant that turns natural-language requests into GraphQL queries over BIM data.',
+      'Led proofs of concept for AECOM and Autodesk, including AI clash-detection explanations and automated parameter population.',
+      'Mentored junior developers and ran code and design reviews.',
+    ],
   },
   {
-    title: "Junior Developer",
-    company: "NCircle Tech Solutions Pvt. Ltd.",
-    period: "Aug / 2022 - Nov / 2022",
-    description: [
-      "Worked on a Machine Learning-based project, contributing to the development and implementation of predictive models and algorithms.",
-      "Developed applications using Python, C++, JavaScript, and Three.js, focusing on tasks related to geometry processing, data handling, and visualization.",
-      "Collaborated on Full-Stack Development, utilizing Angular for front-end design and development, ensuring a seamless user interface and experience.",
-      "Handled diverse tasks involving geometry computation, machine learning workflows, and Python scripting, supporting project requirements and improving process efficiency.",
-      "Completed a 3-month internship, during which I gained hands-on experience in cutting-edge technologies, problem-solving, and real-world application development."
-    ]
-  }
+    title: 'Software Engineer',
+    company: 'BusinessNext (CRMNEXT), Acidaes Solutions',
+    period: 'Nov 2022 — Sep 2023',
+    tags: ['React', 'Angular', 'C# / .NET'],
+    points: [
+      'Extended modules of an enterprise banking CRM platform.',
+      'Built sales-pipeline dashboards that made reporting 30% faster.',
+      'Worked with QA to cut bug resolution time by 25%.',
+    ],
+  },
+  {
+    title: 'Software Development Intern',
+    company: 'nCircle Tech Pvt. Ltd.',
+    period: 'Aug 2022 — Nov 2022',
+    tags: ['WPF', 'C#'],
+    points: ['Built a WPF image analyser that finds discrepancies between architectural drawings, cutting review time by 50%.'],
+  },
 ];
 
-export const education = [
-  {
-    degree: "Bachelor of Technology in Computer Science",
-    school: "Dr. A.P.J. Abdul Kalam Technical University",
-    period: "2018 - 2022",
-    description: "Specialized in Computer Science and Engineering with a focus on implementing new ideas and make tech life easier for others."
-  },
-  {
-    degree: "Intermediate",
-    school: "Central Board of Secondary Education",
-    period: "2014 - 2016",
-    description: "Completed intermediate education in the Science stream, building a strong foundation in Physics, Chemistry, Mathematics, and Biology, with a keen interest in technology and problem-solving."
-  }
-];
+export const education = {
+  degree: 'B.Tech, Computer Science',
+  school: 'Dr. A.P.J. Abdul Kalam Technical University',
+  period: '2018 — 2022',
+  score: '80%',
+};
